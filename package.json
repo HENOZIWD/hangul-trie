@@ -4,6 +4,10 @@
   "description": "한글을 지원하는 Compressed Trie 자료구조",
   "license": "MIT",
   "author": "Donghyeon Lee <ehdgus001928@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HENOZIWD/hangul-trie.git"
+  },
   "keywords": [
     "한글",
     "한국어",
