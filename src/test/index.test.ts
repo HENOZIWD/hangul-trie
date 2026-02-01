@@ -30,6 +30,7 @@ describe('Trie test', () => {
     const input = [
       'abc',
       'ㄱㄴㄷ',
+      'ㄱㄴㄷ',
       '개굴개굴 개구리',
       '바나나는 banana야',
     ];

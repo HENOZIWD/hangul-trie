@@ -36,6 +36,9 @@ export class Trie {
    * Trie 자료구조에 문자열을 삽입합니다.
    */
   insert(str: string) {
+    // 이미 존재하는 문자열이면 중단
+    if (this.has(str)) return;
+
     // 한글 분해
     str = integratedDisassemble(str);
 
