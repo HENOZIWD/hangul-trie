@@ -1,6 +1,6 @@
 {
   "name": "hangul-trie",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "한글을 지원하는 Compressed Trie 자료구조",
   "license": "MIT",
   "author": "Donghyeon Lee <ehdgus001928@gmail.com>",
