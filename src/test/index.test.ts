@@ -116,6 +116,7 @@ describe('Trie test', () => {
     ];
     input.forEach((value) => trie.insert(value));
 
+    expect(trie.autoComplete('').sort()).toStrictEqual(input.sort());
     expect(trie.autoComplete('appll')).toStrictEqual([]);
     expect(trie.autoComplete('app').sort()).toStrictEqual([
       'apple',
