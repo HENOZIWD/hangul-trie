@@ -5,7 +5,7 @@
 
 본 라이브러리는 [es-hangul](https://github.com/toss/es-hangul)의 한글 처리 기능을 바탕으로 제작되었습니다.
 
-## install
+## Install
 ```bash
 npm i hangul-trie
 ```
