@@ -5,14 +5,12 @@
   "license": "MIT",
   "author": "Donghyeon Lee <ehdgus001928@gmail.com>",
   "type": "module",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "tsc --build --clean && tsc",
     "test": "vitest"
   },
-  "files": [
-    "dist/*"
-  ],
+  "files": ["dist"],
   "devDependencies": {
     "@types/node": "^25.1.0",
     "typescript": "^5.9.3",
