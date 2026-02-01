@@ -1,6 +1,5 @@
 import { Trie } from "@/core/index.js";
 import { commonPrefixLength, integratedAssemble, integratedDisassemble } from "@/utils/index.js";
-import { assemble } from "es-hangul";
 import { describe, expect, test } from "vitest";
 
 describe('Util functions test', () => {
@@ -23,7 +22,7 @@ describe('Util functions test', () => {
     expect(integratedAssemble('abc')).toBe('abc');
     expect(integratedAssemble('ㄱㅏa ㅁㅜㄹ b치')).toBe('가a 물 b치');
   });
-})
+});
 
 describe('Trie test', () => {
   test('Insert test', () => {
