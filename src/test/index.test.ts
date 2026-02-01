@@ -67,6 +67,8 @@ describe('Trie test', () => {
     trie.remove('가나다');
     // 자식 노드가 1개인 중간 노드인 경우
     trie.remove('나비');
+    // 존재하지 않는 문자열 제거하는 경우
+    trie.remove('나봥');
 
     expect(trie.has('ㄱㄴㄷㄹ')).toBe(false);
     expect(trie.has('가나다')).toBe(false);
